@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+  <!-- DIV - Tag de agrupamento de informações -->
+  <div class="login">
+    <!-- A - Link -->
+    <a href="">Login</a>
+</div>
+        <header>
+     <!-- Conjunto de informações sobre o site -->
+     <div class="informacoes">
+        <!-- H1 - Título (h1 / h2 / h3 / h4 / h5 / h6) -->
+        <h1>Reuniao da velha Guarda <br>Um sambista Perfeito</h1>
+        <!-- P - Paragrafo -->
+        <p>Encontro De Bambas Do Samba. <br>
+            Quem nao Gosta de samba  e ruin da cabeca e doente do pe!</p>
+        <div class="inputs">
+            <!-- Caixinha de input de informações -->
+            <input type="text" id="inputNome" placeholder="Digite seu nome">
+            <div class="entrarEmail">
+                <input type="email" id="inputEmail" placeholder="Digite seu email">
+                <!-- Botão -->
+                <button class="botaoLogin">Entrar</button>
+            </div>
+            <div>
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/s0E_-R_ipDE?si=7oSBUCynMOU9lGai" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video1"></iframe> 
+                </div>
+            <div>
+                <img width="1000" height="500" src="img/samba2.jpg" alt="Samba" id="img1">
+                <img width="1000" height="500" src= "img/pagode 90.jpg" alt="Samba" id="img2">
+            </div>
+
+             
+    </div>
+                    
+</body>
+</html>
+
+<button onclick="Atualizar ()">Atualizar</button>
+
+<script>
+    function Atualizar() {
+        document.querySelector("#img1").setAttribute("src", "img/samba1.png")
+        document.querySelector("#img2").setAttribute("src", "img/tardezinha.jpg")
+        var video = document.getElementById("video1");
+        video.src ="https://www.youtube.com/embed/Ps2z_3zDzhs?si=lWo7Bo7Qh5IyZJX7"
+        document.querySelector("body").style.backgroundColor="orange"
+
+    }
+</script>

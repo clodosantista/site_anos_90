@@ -1,0 +1,128 @@
+body {
+    /* Aplica a imagem */
+    /*
+    background-image: url(topo-de-bolo-pagode-e-samba-topo-de-bolo.jpg);
+    /* Não repetir a imagem */
+    /*
+    background-repeat: no-repeat;
+    /* Cobrir todo o fundo da tela com a mesma imagem */
+    /*
+    background-size: cover;
+    */
+    background-color: aqua;
+}
+
+.login {
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+.login a {
+    /* Deixa o texto maiusculo */
+    text-transform: uppercase;
+    /* Tirar o sublinhado  */
+    text-decoration: none;
+    /* Tamanho da Fonte */
+    font-size: 60px;
+    /* Fonte da letra */
+    font-family: "Indie Flower", cursive;
+    /* Espessura da letra */
+    font-weight: 700;
+    /* Cor da letra */
+    color: #8C7B7C;
+    /* Cor de fundo */
+    background-color: beige;
+    /* Espaçamento interno */
+    padding: 10px 30px;
+    /* Arrendodar as bordas */
+    border-radius: 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: red;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.informacoes p {
+    font-size: 20px;
+    color: red(220, 245, 235);
+    text-transform: uppercase;
+    font-family: "Indie Flower", cursive;
+    font-weight: 300;
+    text-align: center;
+}
+
+#inputNome {
+    /* Largura */
+    width: 550px;
+    /* Altura */
+    height: 40px;
+    /* Arredondar a borda */
+    border-radius: 15px;
+    /* Retirar a borda preta */
+    border-style: none;
+}
+
+#inputEmail {
+    /* Largura */
+    width: 120px;
+    /* Altura */
+    height: 20px;
+    /* Arredondar a borda */
+    border-radius: 10px;
+    /* Retirar a borda preta */
+    border-style: none;
+}
+
+.botaoLogin {
+    /* Largura */
+    width: 20px;
+    /* Altura */
+    height: 10px;
+    /* Cor */
+    color: beige;
+    /* Cor de fundo */
+    background-color: #8C7B7C;
+    /* Arredondar a borda */
+    border-radius: 5px;
+    /* Tamanho da fonte */
+    font-size: 5px;
+    /* Maiusculo */
+    text-transform: uppercase;
+    /* Tirar a borda */
+    border-style: none;
+}
+
+.inputs{
+    /* Ajuste de posicionamento */
+    display: flex;
+    /* Direção dos itens - em coluna */
+    flex-direction: column;
+    /* Alinhar os iten ao centro */
+    align-items: center;
+    /* aumentar a margem do topo */
+    margin-top: 30px;
+}
+
+.entrarEmail{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.redes{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.redes img{
+    width: 40px;
+}
